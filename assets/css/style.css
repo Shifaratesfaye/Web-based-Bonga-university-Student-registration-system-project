@@ -1,0 +1,229 @@
+ body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ #addislogo{
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px;
+ }
+.navbar-custom {
+    background-color:#3333ff;
+    font-family: Cambria;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0px;
+}
+.navbar-custom .navbar-nav>li>a {
+  color: white;
+  font-size: 20px;
+  margin-left: 13px;
+}
+.navbar-custom .navbar-nav>.active>a {
+  background: #fff;
+  border-radius: 5px;
+}
+.navbar-custom .navbar-nav>li>a:hover {
+  /* background-color: #82c434; */
+  color: gray;
+  background: white;
+  border-radius: 5px;
+ }
+.navbar-custom .navbar-brand {
+  color: red;
+  font-size: 25px;
+}
+.navbar-custom .navbar-brand:hover {
+  color: gray;
+}
+.welcome{
+  color:darkmagenta;
+  /* color: indigo; */
+  height: 100px;
+  width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.slider {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#titles {
+  font-size: 45px;
+  border-bottom-style: ridge;
+  font-weight: bold;
+  border-bottom-color: #82c434;
+}
+.column {
+  border-style: solid;
+  border-color: #999999;
+  border-width: 1px;
+  min-height: 300px;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+.icons {
+  width: 130px;
+  font-size: 60px;
+  background-color: #d9d9d9;
+  padding: 5px 10px;
+  height: 110px;
+  color: #3333ff;
+  margin-top: -50px;
+  border-radius: 5px;
+}
+
+
+/* footer part */
+h3{
+  border-bottom-style: ridge;
+  border-bottom-color:goldenrod;
+}
+footer {
+  background-color: #333333;
+  margin-top: 15px;
+  padding-bottom: 2%;
+  color: #FFF;
+}
+.ad{
+  color: goldenrod;
+}
+.fam {
+  padding: 20px;
+  font-size: 30px;
+  color: #FFF;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: goldenrod;
+  text-decoration: none;
+}
+.carousel-control{
+  color: red;
+}
+.copyright{
+  background-color: #333333;
+  margin-top: 1px;
+  padding-bottom: 2%;
+  color: #FFF;
+  /* width: 100%;
+  height: 5px; */
+}
+.copy{
+ padding-top: 5px;
+}
+
+/* service part */
+
+.service{
+  padding-top: 150px;
+}
+.logsys{
+  padding-top: 300px;
+}
+#top_banner .inner h2 {
+	color: #fff;
+	margin-bottom: 0px;
+}
+#top_banner .banner {
+	background-image: url("../../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+	background-position: 50% 25%;
+}
+body #top_banner .page_info {
+	padding: 20px 0px 10px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+}
+body #portfolio {
+	background-color: #fff;
+/* Portfolio */ }
+body #portfolio .title {
+	text-transform: uppercase;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+body #portfolio .portfolio-one {
+	margin-bottom: 30px;
+	-moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+body #portfolio .portfolio-head {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+body #portfolio .portfolio-img img {
+	width: 100%;
+	height: auto;
+}
+body #portfolio .portfolio-hover {
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+body #portfolio .portfolio-hover a i {
+	color: #fff;
+}
+body #portfolio .portfolio-link, body #portfolio .portfolio-zoom {
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	background-color: #171717;
+	display: inline-block;
+	text-align: center;
+	opacity: 0.8;
+}
+body #portfolio .portfolio-link {
+	margin-right: -39px;
+	right: 50%;
+}
+body #portfolio .portfolio-zoom {
+	margin-left: -39px;
+	left: 50%;
+}
+body #portfolio .portfolio-content {
+	padding: 20px;
+}
+body #portfolio .portfolio-one:hover .portfolio-hover {
+	left: 0;
+	opacity: 0.9;
+}
+body #portfolio .portfolio-link:hover, body #portfolio .portfolio-zoom:hover {
+	opacity: 1;
+}
+body #portfolio nav {
+	text-align: right;
+}
+body #contact-page {
+  background-color: #fff;
+}
+body #login-reg {
+  background-color: #fff;
+  text-align: center;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
